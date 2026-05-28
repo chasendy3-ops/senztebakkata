@@ -12,7 +12,7 @@ import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/1
 const firebaseConfig = {
   apiKey: "AIzaSyDB_ayhOCMG-puycVH_9UCAb0OdpcIvFiw",
   authDomain: "sendymanga-4419f.firebaseapp.com",
-  databaseURL: "https://sendymanga-4419f-default-rtdb.asia-southeast1.firebasedatabase.app/",
+  databaseURL: "https://sendymanga-4419f-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "sendymanga-4419f",
   storageBucket: "sendymanga-4419f.firebaseapp.com",
   messagingSenderId: "27391753411",
