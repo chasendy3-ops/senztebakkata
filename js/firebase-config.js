@@ -12,7 +12,7 @@ import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/1
 const firebaseConfig = {
   apiKey: "AIzaSyAGHxagjcJN_M6BlyCmUGZrsdmC7HAtbkY",
   authDomain: "senztebakkata.firebaseapp.com",
-  databaseURL: "https://sendytebakata.firebaseio.com",
+  databaseURL: "https://senztebakkata-default-rtdb.asia-southeast1-firebase.app",
   projectId: "senztebakkata",
   storageBucket: "senztebakkata.firebasestorage.app",
   messagingSenderId: "708353652404",
