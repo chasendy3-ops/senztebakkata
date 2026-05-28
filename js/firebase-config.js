@@ -10,14 +10,14 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.0/firebase
 import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAGHxagjcJN_M6BlyCmUGZrsdmC7HAtbkY",
-  authDomain: "senztebakkata.firebaseapp.com",
-  databaseURL: "https://senztebakkata-default-rtdb.asia-southeast1-firebase.app",
-  projectId: "senztebakkata",
-  storageBucket: "senztebakkata.firebasestorage.app",
-  messagingSenderId: "708353652404",
-  appId: "1:708353652404:web:524a81fa87ec7abbcac9e1",
-  measurementId: "G-JEWXJHR0D3"
+  apiKey: "AIzaSyDB_ayhOCMG-puycVH_9UCAb0OdpcIvFiw",
+  authDomain: "sendymanga-4419f.firebaseapp.com",
+  databaseURL: "https://sendymanga-4419f-default-rtdb.asia-southeast1.firebasedatabase.app/",
+  projectId: "sendymanga-4419f",
+  storageBucket: "sendymanga-4419f.firebaseapp.com",
+  messagingSenderId: "27391753411",
+  appId: "1:27391753411:web:6cf4dc0eb771c95b593676",
+  measurementId: "G-X9MW7WPB2T"
 };
 
 const app = initializeApp(firebaseConfig);
