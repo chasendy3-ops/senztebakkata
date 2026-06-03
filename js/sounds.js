@@ -33,9 +33,9 @@ function playDefaultTone(type) {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
 
     const configs = {
-      yes: { url: "https://files.catbox.moe/fbdqoq.mp3" },
-      maybe: { url: "https://files.catbox.moe/fubug1.mp3" },
-      no: { url: "https://files.catbox.moe/wmyxq0.mp3" }
+      yes: { freqs: [523.25, 659.25, 783.99], dur: 0.12, wave: 'sine' },
+      maybe: { freqs: [440, 494.88, 440], dur: 0.14, wave: 'triangle' },
+      no: { freqs: [349.23, 311.13, 261.63], dur: 0.12, wave: 'sawtooth' }
     };
     const cfg = configs[type] || configs.maybe;
 
