@@ -44,7 +44,7 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 }
 .bg-radial {
   position: fixed; inset: 0; pointer-events: none; z-index: 0;
-  background: url("https://files.catbox.moe/se75u8.jpeg");
+  background: url("https://files.catbox.moe/ber0no.jpeg");
 }
 .bg-grid {
   position: fixed; inset: 0; pointer-events: none; z-index: 0;
